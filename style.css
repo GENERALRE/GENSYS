@@ -1,0 +1,72 @@
+/* Background Image */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('background1.png') no-repeat center center/cover; /* Add your background image */
+    color: white;
+}
+
+/* Login Container */
+.login-container {
+    position: relative;
+    padding: 30px;
+    background: rgba(44, 62, 80, 0.9); /* Semi-transparent background */
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 400px;
+}
+
+/* Logo Styling - Top Left Corner */
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.logo img {
+    width: 100px; /* Adjust the size */
+    height: auto;
+}
+
+/* Login Form */
+.login-form {
+    text-align: center;
+    margin-top: 50px; /* Push down to make space for the logo */
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+input {
+    width: 90%;
+    padding: 12px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    background: #008CBA;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background: #005F73;
+    transform: scale(1.05);
+}
